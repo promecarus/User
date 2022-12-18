@@ -1,0 +1,17 @@
+[
+  {
+    "command": "workbench.action.terminal.kill",
+    "key": "ctrl+w",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.terminal.new",
+    "key": "ctrl+n",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.terminal.split",
+    "key": "ctrl+d",
+    "when": "terminalFocus"
+  }
+]

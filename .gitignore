@@ -1,0 +1,17 @@
+!.env.example
+.DS_Store
+.env
+.env.*
+.fleet
+.idea
+*.log
+bun.lockb
+globalStorage/
+History/
+logs
+node_modules
+package.json
+sync/
+tasks.json
+tsconfig.json
+workspaceStorage/

@@ -1,0 +1,47 @@
+{
+	"arrow": {
+		"body": "const $1 = ($2) => {\n\t$3\n}$0",
+		"prefix": "arrow",
+		"scope": "javascript, svelte, typescript"
+	},
+	"clg": {
+		"body": "console.log($1)$0",
+		"prefix": "clg",
+		"scope": "html, javascript, php, svelte, typescript"
+	},
+	"map": {
+		"body": "map((${1:item}) => {\n\t$2\n});$0",
+		"prefix": "map",
+		"scope": "html, javascript, svelte, typescript"
+	},
+	"php": {
+		"body": "<?php $1 ?>$0",
+		"prefix": "php",
+		"scope": "html, php"
+	},
+	"phpp": {
+		"body": "<?= $$1; ?>$0",
+		"prefix": "phpp",
+		"scope": "html, php"
+	},
+	"script": {
+		"body": "<script>\n\t$1\n</script>$0",
+		"prefix": "script",
+		"scope": "html, php"
+	},
+	"scriptts": {
+		"body": "<script lang=\"ts\">\n\t$1\n</script>$0",
+		"prefix": "scriptts",
+		"scope": "svelte"
+	},
+	"shead": {
+		"body": "<svelte:head>\n\t$1\n</svelte:head>$0",
+		"prefix": "shead",
+		"scope": "svelte"
+	},
+	"vd": {
+		"body": "var_dump($$1);$0",
+		"prefix": "vd",
+		"scope": "html, php"
+	}
+}

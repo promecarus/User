@@ -1,0 +1,180 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.maxFileSize": 0,
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.defaultFormatter": null,
+  "editor.fontFamily": "FiraCode Nerd Font, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.maxTokenizationLineLength": 80000,
+  "editor.minimap.side": "right",
+  "editor.renderWhitespace": "none",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.tabSize": 4,
+  "editor.tokenColorCustomizations": {
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    }
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "postcss": "css"
+  },
+  "evenBetterToml.formatter.alignComments": true,
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.allowedBlankLines": 2,
+  "evenBetterToml.formatter.arrayAutoExpand": true,
+  "evenBetterToml.formatter.arrayTrailingComma": true,
+  "evenBetterToml.formatter.columnWidth": 1,
+  "evenBetterToml.formatter.reorderArrays": true,
+  "evenBetterToml.formatter.reorderInlineTables": true,
+  "evenBetterToml.formatter.reorderKeys": true,
+  "evenBetterToml.schema.links": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.patterns": {
+    "*.db": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.s3db": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.ts": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "Cargo.toml": "Cargo.lock",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "tsconfig.json": "tsconfig.*.json"
+  },
+  "explorer.sortOrder": "filesFirst",
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.html": "html",
+    "*.module": "php",
+    "*.toml*": "toml"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/desktop.ini": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.confirmForcePush": false,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "jupyter.askForKernelRestart": false,
+  "notebook.cellExecutionTimeVerbosity": "verbose",
+  "notebook.cellFocusIndicator": "border",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.insertFinalNewline": true,
+  "notebook.lineNumbers": "on",
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 25,
+  "notebook.output.wordWrap": true,
+  "php.validate.executablePath": "D:\\laragon\\bin\\php\\php-8.3.11-Win32-vs16-x64\\php.exe",
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.inlayHints.callArgumentNames": "all",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.languageServerMode": "full",
+  "python.analysis.typeEvaluation.strictDictionaryInference": true,
+  "python.analysis.typeEvaluation.strictListInference": true,
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.activateEnvironment": false,
+  "search.exclude": {
+    "**/__pycache__": true
+  },
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "sqliteViewer.maxFileSize": 0,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    }
+  },
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.stickyScroll.maxLineCount": 1,
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.restoreWindows": "none",
+  "window.zoomLevel": -1,
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#818181"
+  },
+  "workbench.editor.labelFormat": "short",
+  "workbench.editorAssociations": {
+    "*.sql": "default"
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.stickyScrollMaxItemCount": 1
+}
