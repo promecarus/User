@@ -1,0 +1,23 @@
+{
+	"php": {
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "php tag"
+	},
+	"phpp": {
+		"prefix": "phpp",
+		"body": [
+			"<?= $$1; ?>"
+		],
+		"description": "phpp tag"
+	},
+	"vd": {
+		"prefix": "var_dump",
+		"body": [
+			"var_dump($$1);"
+		],
+		"description": "var_dump"
+	},
+}
