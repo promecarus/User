@@ -559,6 +559,7 @@
 		"-l 120"
 	],
 	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
 	"settingsSync.ignoredSettings": [
 		"-python.formatting.blackPath"
 	],
@@ -569,8 +570,10 @@
 	"window.restoreWindows": "none",
 	"window.zoomLevel": -1,
 	"workbench.colorTheme": "One Dark Pro Flat",
+	"workbench.editorAssociations": {
+		"*.sql": "default"
+	},
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.sideBar.location": "right",
-	"workbench.startupEditor": "none",
-	"security.workspace.trust.untrustedFiles": "open"
+	"workbench.startupEditor": "none"
 }
