@@ -521,7 +521,6 @@
 	"editor.largeFileOptimizations": false,
 	"editor.minimap.side": "left",
 	"editor.renderControlCharacters": true,
-	"editor.stickyScroll.enabled": true,
 	"editor.suggestSelection": "first",
 	"editor.wordWrap": "on",
 	"emmet.includeLanguages": {
