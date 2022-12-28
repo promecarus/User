@@ -2,5 +2,9 @@
     {
         "key": "ctrl+r ctrl+p",
         "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+r ctrl+t",
+        "command": "workbench.action.terminal.runActiveFile"
     }
 ]
