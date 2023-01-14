@@ -29,10 +29,13 @@
 		"editor.insertSpaces": true,
 		"editor.tabSize": 4
 	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
 	"bladeFormatter.format.indentSize": 1,
 	"bladeFormatter.format.sortHtmlAttributes": "alphabetical",
 	"bladeFormatter.format.sortTailwindcssClasses": true,
-	"bladeFormatter.format.useTabs": true,	
+	"bladeFormatter.format.useTabs": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.cursorBlinking": "expand",
 	"editor.cursorSmoothCaretAnimation": true,
@@ -46,6 +49,7 @@
 	"editor.inlineSuggest.enabled": true,
 	"editor.largeFileOptimizations": false,
 	"editor.minimap.side": "left",
+	"editor.minimap.enabled": false,
 	"editor.renderControlCharacters": true,
 	"editor.suggestSelection": "first",
 	"editor.wordWrap": "on",
@@ -59,6 +63,7 @@
 		"*.css": "css",
 		"*.html": "html"
 	},
+	"files.insertFinalNewline": true,
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	"github.copilot.enable": {
@@ -83,6 +88,7 @@
 	"settingsSync.ignoredSettings": [
 		"-python.formatting.blackPath"
 	],
+	"svelte.enable-ts-plugin": true,
 	"terminal.integrated.copyOnSelection": true,
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"vsicons.dontShowNewVersionMessage": true,
@@ -95,5 +101,4 @@
 	"workbench.sideBar.location": "right",
 	"workbench.startupEditor": "none",
 	"window.zoomLevel": -1,
-	"editor.minimap.enabled": false
 }
