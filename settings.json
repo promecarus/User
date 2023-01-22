@@ -57,8 +57,10 @@
 		"django-html": "html",
 		"postcss": "css"
 	},
+	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	"explorer.sortOrder": "filesFirst",
 	"files.associations": {
 		"*.css": "css",
 		"*.html": "html"
@@ -101,5 +103,6 @@
 	},
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.sideBar.location": "right",
-	"workbench.startupEditor": "none"
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 20
 }
