@@ -1,0 +1,22 @@
+{
+	"clg": {
+		"body": "console.log($1)$0",
+		"prefix": "clg",
+		"scope": "javascript, php, svelte, typescript"
+	},
+	"php": {
+		"body": "<?php $1 ?>$0",
+		"prefix": "php",
+		"scope": "html, php"
+	},
+	"phpp": {
+		"body": "<?= $$1; ?>$0",
+		"prefix": "phpp",
+		"scope": "html, php"
+	},
+	"vd": {
+		"body": "var_dump($$1);$0",
+		"prefix": "vd",
+		"scope": "html, php"
+	}
+}
