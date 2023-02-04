@@ -18,7 +18,10 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
 	},
 	"[php]": {
 		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
@@ -37,22 +40,13 @@
 	"bladeFormatter.format.sortTailwindcssClasses": true,
 	"bladeFormatter.format.useTabs": true,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.cursorBlinking": "expand",
-	"editor.cursorSmoothCaretAnimation": true,
-	"editor.cursorStyle": "line",
-	"editor.defaultFormatter": null,
+	"editor.cursorBlinking": "solid",
+	"editor.cursorStyle": "block",
 	"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
-	"editor.fontWeight": 1,
 	"editor.formatOnSave": true,
-	"editor.formatOnType": false,
 	"editor.guides.bracketPairs": "active",
-	"editor.inlineSuggest.enabled": true,
-	"editor.largeFileOptimizations": false,
-	"editor.minimap.enabled": false,
 	"editor.minimap.side": "left",
-	"editor.renderControlCharacters": true,
-	"editor.suggestSelection": "first",
 	"editor.wordWrap": "on",
 	"emmet.includeLanguages": {
 		"django-html": "html",
@@ -72,8 +66,6 @@
 	"git.confirmSync": false,
 	"github.copilot.enable": {
 		"*": true,
-		"markdown": false,
-		"plaintext": false,
 		"yaml": false
 	},
 	"liveshare.accessibility.soundsEnabled": false,
@@ -86,17 +78,31 @@
 	"prettier.printWidth": 200,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
-	"python.formatting.blackArgs": [
-		"-l 120"
-	],
+	"python.formatting.blackArgs": ["-l 120"],
 	"redhat.telemetry.enabled": false,
 	"security.workspace.trust.untrustedFiles": "open",
-	"settingsSync.ignoredSettings": [
-		"-python.formatting.blackPath"
-	],
+	"settingsSync.ignoredSettings": ["-python.formatting.blackPath"],
 	"svelte.enable-ts-plugin": true,
 	"terminal.integrated.copyOnSelection": true,
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+	"terminal.integrated.profiles.windows": {
+		"Command Prompt": {
+			"args": [],
+			"icon": "terminal-cmd",
+			"path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"]
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"PowerShell": {
+			"icon": "terminal-powershell",
+			"source": "PowerShell"
+		},
+		"Ubuntu (WSL)": {
+			"args": ["-d", "Ubuntu"],
+			"path": "C:\\WINDOWS\\System32\\wsl.exe"
+		}
+	},
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.restoreWindows": "none",
 	"window.zoomLevel": -1,
