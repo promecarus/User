@@ -26,11 +26,12 @@
 	"[php]": {
 		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
 	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.formatOnSave": true,
-		"editor.insertSpaces": true,
-		"editor.tabSize": 4
+		"editor.insertSpaces": true
 	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -40,13 +41,15 @@
 	"bladeFormatter.format.sortTailwindcssClasses": true,
 	"bladeFormatter.format.useTabs": true,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.cursorBlinking": "solid",
-	"editor.cursorStyle": "block",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line",
 	"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
 	"editor.guides.bracketPairs": "active",
+	"editor.inlineSuggest.enabled": true,
 	"editor.minimap.side": "left",
+	"editor.tabSize": 4,
 	"editor.wordWrap": "on",
 	"emmet.includeLanguages": {
 		"django-html": "html",
