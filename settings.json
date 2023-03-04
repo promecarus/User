@@ -31,7 +31,8 @@
 	},
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.insertSpaces": true
+		"editor.insertSpaces": true,
+		"editor.formatOnType": true
 	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -40,6 +41,7 @@
 	"bladeFormatter.format.sortHtmlAttributes": "alphabetical",
 	"bladeFormatter.format.sortTailwindcssClasses": true,
 	"bladeFormatter.format.useTabs": true,
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100, IndentWidth: 4 }",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.cursorBlinking": "expand",
 	"editor.cursorStyle": "line",
