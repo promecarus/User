@@ -31,8 +31,8 @@
 	},
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.insertSpaces": true,
-		"editor.formatOnType": true
+		"editor.formatOnType": true,
+		"editor.insertSpaces": true
 	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -63,9 +63,11 @@
 	"explorer.sortOrder": "filesFirst",
 	"files.associations": {
 		"*.css": "css",
-		"*.html": "html"
+		"*.html": "html",
+		"*.module": "php"
 	},
 	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 500,
 	"files.insertFinalNewline": true,
 	"git.autofetch": true,
 	"git.confirmSync": false,
