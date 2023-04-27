@@ -24,7 +24,7 @@
 		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
 	},
 	"[php]": {
-		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
@@ -37,6 +37,7 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
+	"aws.telemetry": false,
 	"bladeFormatter.format.indentSize": 1,
 	"bladeFormatter.format.sortHtmlAttributes": "alphabetical",
 	"bladeFormatter.format.sortTailwindcssClasses": true,
@@ -75,6 +76,9 @@
 		"*": true,
 		"yaml": false
 	},
+	"gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
+	"gitlens.defaultDateLocale": "id",
+	"jupyter.askForKernelRestart": false,
 	"liveshare.accessibility.soundsEnabled": false,
 	"liveshare.allowGuestDebugControl": true,
 	"liveshare.allowGuestTaskControl": true,
@@ -110,6 +114,11 @@
 			"path": "C:\\WINDOWS\\System32\\wsl.exe"
 		}
 	},
+	"vs-kubernetes": {
+		"vscode-kubernetes.helm-path.linux": "/home/promecarus/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+		"vscode-kubernetes.kubectl-path.linux": "/home/promecarus/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+		"vscode-kubernetes.minikube-path.linux": "/home/promecarus/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+	},
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.restoreWindows": "none",
 	"window.zoomLevel": -1,
@@ -121,5 +130,34 @@
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.sideBar.location": "right",
 	"workbench.startupEditor": "none",
-	"workbench.tree.indent": 20
+	"workbench.tree.indent": 20,
+	"yaml.customTags": [
+		"!And sequence",
+		"!And",
+		"!Base64",
+		"!Cidr",
+		"!Equals sequence",
+		"!Equals",
+		"!FindInMap sequence",
+		"!FindInMap",
+		"!GetAZs",
+		"!GetAtt",
+		"!If sequence",
+		"!If",
+		"!ImportValue sequence",
+		"!ImportValue",
+		"!Join sequence",
+		"!Join",
+		"!Not sequence",
+		"!Not",
+		"!Or sequence",
+		"!Or",
+		"!Ref",
+		"!Select sequence",
+		"!Select",
+		"!Split sequence",
+		"!Split",
+		"!Sub sequence",
+		"!Sub"
+	]
 }
