@@ -31,8 +31,10 @@
 	},
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.formatOnType": true,
 		"editor.insertSpaces": true
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
 	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -42,16 +44,16 @@
 	"bladeFormatter.format.sortTailwindcssClasses": true,
 	"bladeFormatter.format.useTabs": true,
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100, IndentWidth: 4 }",
+	"dart.openDevTools": "flutter",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.cursorBlinking": "expand",
 	"editor.cursorStyle": "line",
+	"editor.defaultFormatter": null,
 	"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"editor.guides.bracketPairs": "active",
-	"editor.inlineSuggest.enabled": true,
-	"editor.minimap.enabled": false,
 	"editor.minimap.side": "left",
 	"editor.tabSize": 4,
 	"editor.wordWrap": "on",
@@ -61,7 +63,6 @@
 	},
 	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
-	"explorer.confirmDragAndDrop": false,
 	"explorer.sortOrder": "filesFirst",
 	"files.associations": {
 		"*.css": "css",
@@ -69,19 +70,21 @@
 		"*.module": "php"
 	},
 	"files.autoSave": "afterDelay",
-	"files.autoSaveDelay": 500,
+	"files.autoSaveDelay": 3000,
 	"files.insertFinalNewline": true,
 	"git.allowForcePush": true,
 	"git.autofetch": true,
 	"git.confirmForcePush": false,
 	"git.confirmSync": false,
 	"github.copilot.enable": {
-		"*": true,
-		"yaml": false
+		"*": true
 	},
+	"gitlens.currentLine.enabled": false,
 	"gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
 	"gitlens.defaultDateLocale": "id",
-	"gitlens.gitCommands.skipConfirmations": ["fetch:command", "push:command", "stash-push:command", "switch:command"],
+	"gitlens.gitCommands.skipConfirmations": ["fetch:command", "push:command", "stash-push:command"],
+	"gitlens.showWelcomeOnInstall": false,
+	"gitlens.showWhatsNewAfterUpgrades": false,
 	"jupyter.askForKernelRestart": false,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveshare.accessibility.soundsEnabled": false,
@@ -92,7 +95,6 @@
 	"notebook.formatOnSave.enabled": true,
 	"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
 	"phpfmt.cakephp": true,
-	"prettier.prettierPath": "./node_modules/prettier",
 	"prettier.printWidth": 200,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
@@ -126,7 +128,6 @@
 		"vscode-kubernetes.kubectl-path.linux": "/home/promecarus/.local/state/vs-kubernetes/tools/kubectl/kubectl",
 		"vscode-kubernetes.minikube-path.linux": "/home/promecarus/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
 	},
-	"vsicons.dontShowNewVersionMessage": true,
 	"window.restoreWindows": "none",
 	"window.zoomLevel": -1,
 	"workbench.colorTheme": "One Dark Pro Flat",
