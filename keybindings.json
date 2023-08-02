@@ -1,10 +1,22 @@
 [
-    {
-        "key": "ctrl+r ctrl+p",
-        "command": "python.execInTerminal"
-    },
-    {
-        "key": "ctrl+r ctrl+t",
-        "command": "workbench.action.terminal.runActiveFile"
-    }
+	{
+		"key": "ctrl+d",
+		"command": "workbench.action.terminal.split",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.terminal.new",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "workbench.action.terminal.kill",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "extension.advancedNewFile",
+		"when": "editorTextFocus"
+	}
 ]
